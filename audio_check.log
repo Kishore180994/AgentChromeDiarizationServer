@@ -1,0 +1,24 @@
+Checking for audio files...
+wave_16k.wav exists, size: 1920044 bytes
+wave.wav exists, size: 1920044 bytes
+Attempting to create a simple test audio file...
+Successfully created test_tone.wav, size: 160044 bytes
+
+Listing all files in current directory:
+- server_output.log (2020 bytes)
+- test_tone.wav (160044 bytes)
+- .DS_Store (6148 bytes)
+- test_output.log (0 bytes)
+- debug_audio (128 bytes)
+- __pycache__ (160 bytes)
+- README.md (5213 bytes)
+- .env (148 bytes)
+- wave.wav (1920044 bytes)
+- venv (224 bytes)
+- test_client.py (10609 bytes)
+- main.py (27868 bytes)
+- wave_16k.wav (1920044 bytes)
+- create_test_audio.py (4290 bytes)
+- client_output.log (0 bytes)
+- audio_check.log (0 bytes)
+- check_audio_files.py (1573 bytes)

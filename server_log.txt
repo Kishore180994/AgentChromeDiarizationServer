@@ -1,0 +1,45 @@
+DEBUG:speechbrain.utils.checkpoints:Registered checkpoint save hook for _speechbrain_save
+DEBUG:speechbrain.utils.checkpoints:Registered checkpoint load hook for _speechbrain_load
+DEBUG:speechbrain.utils.checkpoints:Registered checkpoint save hook for save
+DEBUG:speechbrain.utils.checkpoints:Registered checkpoint load hook for load
+DEBUG:speechbrain.utils.checkpoints:Registered checkpoint save hook for _save
+DEBUG:speechbrain.utils.checkpoints:Registered checkpoint load hook for _recover
+WARNING:main:GPU not available. Pyannote loaded on CPU.
+Device set to use cpu
+INFO:     Started server process [80642]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+DEBUG:    = connection is CONNECTING
+DEBUG:    < GET /ws/diarize HTTP/1.1
+DEBUG:    < host: localhost:8003
+DEBUG:    < upgrade: websocket
+DEBUG:    < connection: Upgrade
+DEBUG:    < sec-websocket-key: CdqzAg9I0YlRJKHWGftVSQ==
+DEBUG:    < sec-websocket-version: 13
+DEBUG:    < sec-websocket-extensions: permessage-deflate; client_max_window_bits
+DEBUG:    < user-agent: Python/3.10 websockets/15.0.1
+INFO:     ('127.0.0.1', 60431) - "WebSocket /ws/diarize" [accepted]
+DEBUG:    > HTTP/1.1 101 Switching Protocols
+DEBUG:    > Upgrade: websocket
+DEBUG:    > Connection: Upgrade
+DEBUG:    > Sec-WebSocket-Accept: MQjmqpIlpeXyBFPySoRW+Y1dX38=
+DEBUG:    > Sec-WebSocket-Extensions: permessage-deflate
+DEBUG:    > date: Sat, 26 Apr 2025 07:28:48 GMT
+DEBUG:    > server: uvicorn
+INFO:     connection open
+DEBUG:    = connection is OPEN
+DEBUG:    < BINARY 00 00 01 00 08 00 13 00 20 00 2b 00 33 00 45 00 ... e3 ff ef ff fb ff 00 00 [960000 bytes]
+/Users/kishore/Documents/github/AgentChrome-diarization-backend/venv/lib/python3.10/site-packages/pyannote/audio/models/blocks/pooling.py:104: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/ReduceOps.cpp:1831.)
+  std = sequences.std(dim=-1, correction=1)
+You have passed language=en, but also have set `forced_decoder_ids` to [[1, None], [2, 50359]] which creates a conflict. `forced_decoder_ids` will be ignored in favor of language=en.
+/Users/kishore/Documents/github/AgentChrome-diarization-backend/venv/lib/python3.10/site-packages/transformers/models/whisper/generation_whisper.py:573: FutureWarning: The input name `inputs` is deprecated. Please make sure to use `input_features` instead.
+  warnings.warn(
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+DEBUG:    < CLOSE 1000 (OK) [2 bytes]
+DEBUG:    = connection is CLOSING
+DEBUG:    > CLOSE 1000 (OK) [2 bytes]
+DEBUG:    x half-closing TCP connection
+DEBUG:    = connection is CLOSED
+INFO:     connection closed
